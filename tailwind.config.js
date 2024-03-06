@@ -24,7 +24,10 @@ module.exports = {
         'sushi-950': '#1f2310',
         'finch-900': '#393e29',
         'finch-950': '#1d2013',
-        'kelp-950': '#1f2013'
+        'kelp-950': '#1f2013',
+        'heavy-metal-900': '#262b26',
+        'mine-shaft-900': '#2a2a27',
+        'mine-shaft-950': '#1b1b18'
       },
       // gradientColorStopPositions: {
       //   33: '33%'

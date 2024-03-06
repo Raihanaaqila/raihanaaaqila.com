@@ -4,60 +4,85 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Projects Raihana Aqila</title>
-    <!-- <link rel="stylesheet" href="/index.css" type="text/css"/> -->
-    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
-      rel="stylesheet"/>
+      rel="stylesheet"
+    />
   </head>
-  <body class="mx-64 bg-gradient-to-r from-waiouru-900  to-sushi-950 text-white" >
+  <body
+    class="mx-64 bg-gradient-to-r from-mine-shaft-900 to-mine-shaft-950 text-white"
+  >
     <div class="flex md:flex md:flex-grow justify-end space-x-1">
-      <ul class="inline-flex gap-7 relative top-3 right-15 ms-64">
-        <li><a href="/">Home</a></li>
-        <li><a href="/about/">About</a></li>
-        <li><a href="/projects/">Projects</a></li>
-        <li><a href="/contact/">Contact</a></li>
-        </ul>
-      </div>
+      <ul class="inline-flex gap-7 relative top-3 right-15 ms-80">
+        <li>
+          <a class="hover:text-lime-900 transition duration-300" href="/"
+            >Home</a
+          >
+        </li>
+        <li>
+          <a class="hover:text-lime-900 transition duration-300" href="/about/"
+            >About</a
+          >
+        </li>
+        <li>
+          <a
+            class="hover:text-lime-900 transition duration-300"
+            href="/projects/"
+            >Projects</a
+          >
+        </li>
+        <li>
+          <a
+            class="hover:text-lime-900 transition duration-300"
+            href="/contact/"
+            >Contact</a
+          >
+        </li>
+      </ul>
+    </div>
     <main>
-      <h2>Projects</h2>
-      <h4>
-        Design of a Mask User, Body Temperature, and Antiseptic User Detection
-        Tool at the Entrance Public Facilities as a Covid-19 Health Protocol
-      </h4>
-      <img
-        src="/Images/wiring diagram photo.jpg"
-        alt="photo projects 1"
-        width="200"
-        height="150"
-        class="photoprojects"
-      />
-      <p class="projectsdesc">
-        Design a program that integrates the mask detection program, body
-        temperature, and antiseptic use so that it becomes a unified program as
-        an implementation tool for health protocols to prevent the spread of the
-        corona virus or Covid-19. The realization of a device to detect masks,
-        body temperature and the use of antiseptics that can be implemented at
-        the door of public facilities such as schools/campuses so that everyone
-        before entering the room will be checked for body temperature and
-        whether they have a mask or not.
-      </p>
-      <ul>
-        <li>Arduino</li>
+      <h2 class="text-5xl mt-24 font-semibold">Projects</h2>
+      <div>
+        <h4 class="text-3xl mt-5 font-medium">
+          Design of a Mask User, Body Temperature, and Antiseptic User Detection
+          Tool at the Entrance Public Facilities as a Covid-19 Health Protocol
+        </h4>
+        <img
+          class="float-left"
+          src="/Images/wiring diagram photo.jpg"
+          alt="photo projects 1"
+          width="200"
+          height="150"
+        />
+        <p class="mt-5">
+          Design a program that integrates the mask detection program, body
+          temperature, and antiseptic use so that it becomes a unified program
+          as an implementation tool for health protocols to prevent the spread
+          of the corona virus or Covid-19. The realization of a device to detect
+          masks, body temperature and the use of antiseptics that can be
+          implemented at the door of public facilities such as schools/campuses
+          so that everyone before entering the room will be checked for body
+          temperature and whether they have a mask or not.
+        </p>
+      </div>
+      <ul class="text-center inline-flex gap-20 py-7">
+        <li class="container">Arduino</li>
         <li>Raspberry Pi</li>
         <li>AMG8833</li>
         <li>HSCR-04</li>
         <li>Python</li>
       </ul>
 
-      <h4>
+      <h4 class="text-3xl mt-8 font-medium">
         Mask and Body Temperature Detection System Using Webcam Camera,
         Artificial Intelligence Library, Image Processing and Thermal Sensor
         MLX90614
       </h4>
       <img
+        class="float-left"
         src="/Images/evaluation.jpg"
         alt="photo projects 2"
         width="300"
@@ -71,7 +96,7 @@
         height="100"
         class="photoprojects"
       />
-      <p class="projectsdesc">
+      <p class="mt-5">
         The mask detection system is used to detectsomeone who is wearing a mask
         and not wearing a mask to prevent the spread ofthe COVID-19 virus as the
         government has recommended, namely checking maskusers and body
@@ -79,7 +104,7 @@
         mask recognition program based on an artificial intelligence libraryand
         image processing, and an MLX90614 thermal sensor.
       </p>
-      <ul>
+      <ul class="text-center inline-flex gap-20 py-3">
         <li>Python</li>
         <li>OpenCV</li>
         <li>MobileNetv2</li>
@@ -87,12 +112,12 @@
         <li>Tensorflow</li>
       </ul>
 
-      <h2 >Article and Publication</h2>
-      <h4>
+      <h2 class="text-5xl mt-24 font-semibold">Article and Publication</h2>
+      <h4 class="text-3xl mt-5 font-medium">
         Design of 4 Patch Antenna Linear Microstrip Antenna at Frequency 915 MHz
         Using CST Studio
       </h4>
-      <p class="projectsdesc">
+      <p class="mt-5">
         To obtain a form of radiation that cannot be provided by a single
         antenna can be done by arranging a number of antenna elements
         systematically. This arrangement of antenna elements is called an array.
@@ -104,11 +129,11 @@
         form a straight line. These elements can be equidistant or different
         from each other.
       </p>
-      <h4>
+      <h4 class="text-3xl mt-5 font-medium">
         Transmission System and Parameter Analysis of Digital TV Transmitter at
         Transmission Unit LPP TVRI Joglo West Jakarta
       </h4>
-      <p class="projectsdesc">
+      <p class="mt-5">
         LPP TVRI transmission station has a transmitter station located in
         Joglo, West Jakarta. The station has three transmitters each capable of
         serving analog, digital, and dualcast broadcasts used to broadcast its
@@ -122,11 +147,11 @@
         transmitted again. An analog transmitter device is also called an analog
         exciter.
       </p>
-      <h4>
+      <h4 class="text-3xl mt-5 font-medium">
         Comparison of Response Time of Artificial Intelligence Mask Detection
         Program Implemented on Several Computer and Microcontroller Platforms
       </h4>
-      <p class="projectsdesc">
+      <p class="mt-5">
         The use of masks during the Covid-19 pandemic is crucial to prevent
         transmission of the Covid-19 virus. Everyone is required to wear a mask
         in public places both indoors and outdoors. Therefore, a mask detection
@@ -139,27 +164,33 @@
       </p>
     </main>
 
-    <footer>
-      <h4>Portfolio</h4>
-      <ul>
-        <li><a href="">Resume</a></li>
-        <li><a href="">Blog</a></li>
-        <li><a href="">Projects</a></li>
-      </ul>
-      <h4>Explore</h4>
-      <ul>
-        <li><a href="">Internet of Things</a></li>
-        <li><a href="">Radio Frequency</a></li>
-        <li><a href="">Software Quality</a></li>
-        <li><a href="">Machine Learning</a></li>
-      </ul>
-      <h4>General</h4>
-      <ul>
-        <li><a href="">Talks</a></li>
-        <li><a href="">Chat</a></li>
-      </ul>
-
-      <p>&copy; 2024 Raihana Aqila</p>
+    <footer
+      class="relative bottom-0 inline-flex gap-20 mx-28 my-32 right-15 ms-80"
+    >
+      <div>
+        <h4 class="font-semibold">Portfolio</h4>
+        <ul class="py-7 tracking-widest">
+          <li><a href="">Resume</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">Projects</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-semibold">Explore</h4>
+        <ul class="py-7 tracking-wider">
+          <li><a class="py-4" href="">Internet of Things</a></li>
+          <li><a class="py-4" href="">Radio Frequency</a></li>
+          <li><a class="py-4" href="">Software Quality</a></li>
+          <li><a class="py-4" href="">Machine Learning</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-semibold">General</h4>
+        <ul class="py-7">
+          <li><a href="">Talks</a></li>
+          <li><a href="">Chat</a></li>
+        </ul>
+      </div>
     </footer>
   </body>
 </html>
