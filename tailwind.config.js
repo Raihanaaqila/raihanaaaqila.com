@@ -33,6 +33,8 @@ module.exports = {
       //   33: '33%'
       // } 
     },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography')
+  ],
   }
 }
